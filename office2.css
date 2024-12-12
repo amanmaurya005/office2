@@ -35,7 +35,8 @@
    width: 800px;
    margin: 8px;
    text-align: center;
-   justify-content: center;
+   display: flex;
+   align-items: center;
 }
 .bot label
 {
@@ -49,10 +50,11 @@
     width: 500px;
     padding: 8px;
 }
+
 textarea
 {
     width: 500px;
-   margin-right: 10px;
+   margin-left: 10px;
    padding: 7px 0 0 7px;
   
 
